@@ -55,9 +55,10 @@ function Home() {
 		</form>
 
 		{error && <div className="error-message">{error}</div>}
-
 		{loading ? (
 			<div className="loading">Loading...</div>
+		) : movies.length === 0 ? (
+			<div className="no-results">No movies found. Try a different search.</div>
 		) : (
 			<div className="movies-grid">
 				{movies.map((movie) => (

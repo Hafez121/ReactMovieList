@@ -1,6 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
 import './css/App.css'
-import MoveCard from "./components/MovieCard"
 import Favorites from './pages/Favorites';
 import Home from "./pages/Home"
 import NavBar from './components/NavBar';

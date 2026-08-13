@@ -1,16 +1,26 @@
-# React + Vite
+# React Movie List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A movie search and favorites app built with React, using the TMDB API.
 
-Currently, two official plugins are available:
+## Live Demo
+[link once deployed]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Browse popular movies on load
+- Search movies by title
+- Save/remove favorites (persisted in localStorage)
 
-## React Compiler
+## Tech Stack
+- React 19
+- React Router
+- Vite
+- TMDB API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Running Locally
+1. Clone the repo
+2. `npm install`
+3. Create a `.env` file with: VITE_TMDB_API_KEY=your_key_here
+4. `npm run dev`
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Screenshots
+[add 1-2 screenshots once you have them]
