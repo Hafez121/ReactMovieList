@@ -23,4 +23,9 @@ A movie search and favorites app built with React, using the TMDB API.
 4. `npm run dev`
 
 ## Screenshots
-[add 1-2 screenshots once you have them]
+
+### Home
+![Home page](public/screenshots/home.webp)
+
+### Favorites
+![Favorites page](public/screenshots/favorites.webp)
