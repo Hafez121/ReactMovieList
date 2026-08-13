@@ -3,7 +3,7 @@
 A movie search and favorites app built with React, using the TMDB API.
 
 ## Live Demo
-[link once deployed]
+Not currently deployed — clone and run locally (see instructions below).
 
 ## Features
 - Browse popular movies on load
